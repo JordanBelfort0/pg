@@ -1,0 +1,6 @@
+worker_id,role,body_weight_kg,ppe_penetration_factor,vulnerable_flag,device_id
+W01,Harvester,52,1.0,0,PG-01
+W02,Weeding,64,0.5,0,PG-02
+W03,Field helper,68,1.0,0,PG-03
+W04,Irrigation,60,0.5,0,PG-04
+W05,Weeding,50,1.0,1,PG-05

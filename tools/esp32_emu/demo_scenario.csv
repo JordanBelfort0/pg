@@ -1,0 +1,12 @@
+t_s,rssi1,rssi2,gas_mv,act,ack,sos
+# bench demo story; zone 1 = hotspot PG-ZONE-1. The supervisor records the spray from the dashboard at the start.
+0,-127,-88,1100,rest,0,0
+60,-82,-90,1100,walk,0,0
+80,-68,-90,1100,walk,0,0
+100,-60,-90,1100,walk,0,0
+125,-50,-90,1100,hand,0,0
+330,-50,-90,1900,hand,0,0
+380,-50,-90,1900,hand,1,0
+381,-50,-90,1900,hand,0,0
+400,-66,-90,1150,walk,0,0
+420,-127,-88,1100,rest,0,0

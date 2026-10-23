@@ -1,0 +1,23 @@
+{
+ "lines": 2877,
+ "seconds_covered": 485763,
+ "line_loss_pct": 99.41,
+ "entries": [],
+ "exits": [],
+ "entries_detected": "0 of 0",
+ "alert_changes": [],
+ "rssi_dbm": {
+  "inside_median": null,
+  "outside_median": -73.0
+ },
+ "supply_mv": {
+  "first": 5000,
+  "last": 284,
+  "min": 284
+ },
+ "hazard_index_end": 0.0,
+ "gas_counts": {
+  "median": 244.0,
+  "max": 367.0
+ }
+}

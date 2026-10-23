@@ -1,0 +1,378 @@
+{
+ "dataset": {
+  "workers": 5,
+  "days_worked": 6,
+  "spray_events": 7,
+  "windows_5s": 177120,
+  "raw_1hz_rows": 885600,
+  "alert_transitions": 200,
+  "window_completeness_pct": 98.4
+ },
+ "geofence": {
+  "true_entries": 5,
+  "detected": 5,
+  "missed": [],
+  "latency_s": [
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  "median_latency_s": 1.0,
+  "false_entry_warnings": 0,
+  "gnss_error_median_m": 3.23,
+  "gnss_error_p95_m": 10.2,
+  "fixes_rejected_pct": 0.2,
+  "near_minutes": {
+   "W01": 103.3,
+   "W02": 120.2,
+   "W03": 115.4,
+   "W04": 354.2,
+   "W05": 76.2
+  }
+ },
+ "activity": {
+  "labels": [
+   "rest",
+   "walk",
+   "hand"
+  ],
+  "confusion_rows_true_cols_pred": [
+   [
+    108201,
+    1,
+    0
+   ],
+   [
+    240,
+    165957,
+    125
+   ],
+   [
+    33144,
+    61512,
+    516420
+   ]
+  ],
+  "accuracy_pct": 89.3
+ },
+ "alerts": {
+  "W01": {
+   "ADVISORY": 16,
+   "WARNING": 1,
+   "CRITICAL": 0,
+   "ESCALATED": 0,
+   "ACKED": 0
+  },
+  "W02": {
+   "ADVISORY": 22,
+   "WARNING": 2,
+   "CRITICAL": 1,
+   "ESCALATED": 0,
+   "ACKED": 1
+  },
+  "W03": {
+   "ADVISORY": 19,
+   "WARNING": 4,
+   "CRITICAL": 1,
+   "ESCALATED": 1,
+   "ACKED": 1
+  },
+  "W04": {
+   "ADVISORY": 25,
+   "WARNING": 1,
+   "CRITICAL": 0,
+   "ESCALATED": 0,
+   "ACKED": 0
+  },
+  "W05": {
+   "ADVISORY": 17,
+   "WARNING": 3,
+   "CRITICAL": 1,
+   "ESCALATED": 0,
+   "ACKED": 1
+  }
+ },
+ "alert_list": [
+  {
+   "time": "2026-10-05T10:03:49",
+   "worker": "W03",
+   "from_level": "ADVISORY",
+   "to_level": "WARNING",
+   "hazard_index": "0.0",
+   "zone": "S1",
+   "zone_state": "2",
+   "rei_min_left": "2666"
+  },
+  {
+   "time": "2026-10-05T10:05:49",
+   "worker": "W03",
+   "from_level": "WARNING",
+   "to_level": "CRITICAL",
+   "hazard_index": "0.0031",
+   "zone": "S1",
+   "zone_state": "2",
+   "rei_min_left": "2664"
+  },
+  {
+   "time": "2026-10-05T10:06:49",
+   "worker": "W03",
+   "from_level": "CRITICAL",
+   "to_level": "ESCALATED",
+   "hazard_index": "0.0046",
+   "zone": "S1",
+   "zone_state": "2",
+   "rei_min_left": "2663"
+  },
+  {
+   "time": "2026-10-05T10:16:50",
+   "worker": "W03",
+   "from_level": "ESCALATED",
+   "to_level": "ACKED",
+   "hazard_index": "0.02",
+   "zone": "S1",
+   "zone_state": "2",
+   "rei_min_left": "2653"
+  },
+  {
+   "time": "2026-10-06T07:17:13",
+   "worker": "W02",
+   "from_level": "ADVISORY",
+   "to_level": "WARNING",
+   "hazard_index": "0.0",
+   "zone": "S3",
+   "zone_state": "22",
+   "rei_min_left": "1407"
+  },
+  {
+   "time": "2026-10-06T07:17:14",
+   "worker": "W02",
+   "from_level": "WARNING",
+   "to_level": "CRITICAL",
+   "hazard_index": "0.0",
+   "zone": "S3",
+   "zone_state": "22",
+   "rei_min_left": "1407"
+  },
+  {
+   "time": "2026-10-06T07:17:15",
+   "worker": "W02",
+   "from_level": "CRITICAL",
+   "to_level": "ACKED",
+   "hazard_index": "0.0",
+   "zone": "S3",
+   "zone_state": "22",
+   "rei_min_left": "1407"
+  },
+  {
+   "time": "2026-10-06T14:08:40",
+   "worker": "W05",
+   "from_level": "ADVISORY",
+   "to_level": "WARNING",
+   "hazard_index": "0.0",
+   "zone": "S1",
+   "zone_state": "2",
+   "rei_min_left": "981"
+  },
+  {
+   "time": "2026-10-07T15:21:54",
+   "worker": "W01",
+   "from_level": "ADVISORY",
+   "to_level": "WARNING",
+   "hazard_index": "0.5",
+   "zone": "S1",
+   "zone_state": "2",
+   "rei_min_left": "-1"
+  },
+  {
+   "time": "2026-10-08T09:15:19",
+   "worker": "W04",
+   "from_level": "ADVISORY",
+   "to_level": "WARNING",
+   "hazard_index": "0.0",
+   "zone": "S5",
+   "zone_state": "42",
+   "rei_min_left": "2714"
+  },
+  {
+   "time": "2026-10-08T15:34:19",
+   "worker": "W03",
+   "from_level": "ADVISORY",
+   "to_level": "WARNING",
+   "hazard_index": "0.5",
+   "zone": "S3",
+   "zone_state": "22",
+   "rei_min_left": "-1"
+  },
+  {
+   "time": "2026-10-09T13:28:40",
+   "worker": "W03",
+   "from_level": "ADVISORY",
+   "to_level": "WARNING",
+   "hazard_index": "0.5",
+   "zone": "S4",
+   "zone_state": "32",
+   "rei_min_left": "-1"
+  },
+  {
+   "time": "2026-10-10T10:00:33",
+   "worker": "W05",
+   "from_level": "ADVISORY",
+   "to_level": "WARNING",
+   "hazard_index": "0.25",
+   "zone": "S3",
+   "zone_state": "22",
+   "rei_min_left": "-1"
+  },
+  {
+   "time": "2026-10-10T11:00:16",
+   "worker": "W03",
+   "from_level": "ADVISORY",
+   "to_level": "WARNING",
+   "hazard_index": "0.0619",
+   "zone": "S7",
+   "zone_state": "62",
+   "rei_min_left": "1169"
+  },
+  {
+   "time": "2026-10-10T11:10:40",
+   "worker": "W02",
+   "from_level": "ADVISORY",
+   "to_level": "WARNING",
+   "hazard_index": "0.5",
+   "zone": "S6",
+   "zone_state": "52",
+   "rei_min_left": "-1"
+  },
+  {
+   "time": "2026-10-10T11:45:39",
+   "worker": "W05",
+   "from_level": "WARNING",
+   "to_level": "CRITICAL",
+   "hazard_index": "0.4",
+   "zone": "S3",
+   "zone_state": "22",
+   "rei_min_left": "-1"
+  },
+  {
+   "time": "2026-10-10T11:46:16",
+   "worker": "W05",
+   "from_level": "CRITICAL",
+   "to_level": "ACKED",
+   "hazard_index": "0.4009",
+   "zone": "S3",
+   "zone_state": "22",
+   "rei_min_left": "-1"
+  },
+  {
+   "time": "2026-10-10T11:46:26",
+   "worker": "W05",
+   "from_level": "ACKED",
+   "to_level": "WARNING",
+   "hazard_index": "0.4011",
+   "zone": "S3",
+   "zone_state": "22",
+   "rei_min_left": "-1"
+  }
+ ],
+ "advisories_per_day": {
+  "2026-10-05": 30,
+  "2026-10-06": 26,
+  "2026-10-07": 2,
+  "2026-10-08": 10,
+  "2026-10-09": 17,
+  "2026-10-10": 14
+ },
+ "daily_hi": {
+  "W01": {
+   "2026-10-05": 0.0,
+   "2026-10-06": 0.2845,
+   "2026-10-07": 0.5423,
+   "2026-10-08": 0.1887,
+   "2026-10-09": 0.3844,
+   "2026-10-10": 0.3407
+  },
+  "W02": {
+   "2026-10-05": 0.0,
+   "2026-10-06": 0.0001,
+   "2026-10-07": 0.3618,
+   "2026-10-08": 0.3089,
+   "2026-10-09": 0.2916,
+   "2026-10-10": 0.5987
+  },
+  "W03": {
+   "2026-10-05": 0.0206,
+   "2026-10-06": 0.0,
+   "2026-10-07": 0.1896,
+   "2026-10-08": 0.5325,
+   "2026-10-09": 0.7266,
+   "2026-10-10": 0.0761
+  },
+  "W04": {
+   "2026-10-05": 0.0,
+   "2026-10-06": 0.0,
+   "2026-10-07": 0.0,
+   "2026-10-08": 0.0001,
+   "2026-10-09": 0.2222,
+   "2026-10-10": 0.1487
+  },
+  "W05": {
+   "2026-10-05": 0.0,
+   "2026-10-06": 0.0001,
+   "2026-10-07": 0.0,
+   "2026-10-08": 0.0,
+   "2026-10-09": 0.1958,
+   "2026-10-10": 0.4018
+  }
+ },
+ "max_daily_hi": {
+  "W01": 0.5423,
+  "W02": 0.5987,
+  "W03": 0.7266,
+  "W04": 0.2222,
+  "W05": 0.4018
+ },
+ "days_hi_over_warn": {
+  "W01": 1,
+  "W02": 1,
+  "W03": 2,
+  "W04": 0,
+  "W05": 1
+ },
+ "minutes_in_treated_plots": {
+  "W01": {
+   "rei_expired": 2121,
+   "rei_active_unauthorised": 0.0,
+   "rei_active_authorised": 0.0
+  },
+  "W02": {
+   "rei_expired": 1530,
+   "rei_active_unauthorised": 0.1,
+   "rei_active_authorised": 0.0
+  },
+  "W03": {
+   "rei_expired": 1636,
+   "rei_active_unauthorised": 13.7,
+   "rei_active_authorised": 0.0
+  },
+  "W04": {
+   "rei_expired": 602,
+   "rei_active_unauthorised": 0.2,
+   "rei_active_authorised": 44.2
+  },
+  "W05": {
+   "rei_expired": 752,
+   "rei_active_unauthorised": 0.1,
+   "rei_active_authorised": 0.0
+  }
+ },
+ "gas_humidity": {
+  "rh_before": 62.3,
+  "rh_rain": 95.0,
+  "raw_before": 156.0,
+  "raw_rain": 189.5,
+  "raw_change_pct": 21.5,
+  "compensated_change_pct": 1.8
+ }
+}
