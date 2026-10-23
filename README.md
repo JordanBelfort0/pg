@@ -51,7 +51,7 @@ cd ../tools/host_test && g++ -I. -I../../firmware/pestguard_node -DPG_ZONES_FILE
 ```
 
 All pesticide parameters are illustrative placeholders. The gas sensor is a proxy signal only; it does not
-measure pesticide concentration. Do not test with real pesticides.
+measure pesticide concentration. 
 
 `tools/esp32_check/check.sh` type-checks the sketch against the ESP32 core API on a PC;
 `tools/avr_build_check.sh` compiles the Uno fallback build.
